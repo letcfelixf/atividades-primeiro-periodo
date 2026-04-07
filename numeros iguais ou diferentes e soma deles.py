@@ -5,5 +5,7 @@ n3k = n1k + n2k
 print("a soma entre eles é: ",n3k)
 if (n1k == n2k):
     print("eles são iguais")
+elif (n1k > n2k):
+    print("o maior é: ",n1k)
 else:
-    print("eles são diferentes")
+    print("o maior é: ",n2k)
